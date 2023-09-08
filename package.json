@@ -1,0 +1,10 @@
+{
+	"name": "projet_recrutement",
+	"version": "1.0.0",
+	"scripts": {
+		"install-front": "cd ./front && npm install",
+		"install-back": "cd ./back && npm install",
+		"install-all": "npm run-script install-front && npm run-script install-back"
+	},
+	"author": "Doriane"
+}
